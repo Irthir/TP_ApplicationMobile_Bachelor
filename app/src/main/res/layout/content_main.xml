@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+        <TextView
+            android:layout_marginTop="?attr/actionBarSize"
+            android:id="@+id/Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/date"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/police"
+            android:padding="@dimen/margeinterieur" />
+
+        <EditText
+            android:layout_below="@id/Date"
+            android:id="@+id/Nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/nom"
+            android:textSize="@dimen/police"
+            android:importantForAutofill="no"
+            android:padding="@dimen/margeinterieur" />
+
+
+        <EditText
+            android:layout_below="@id/Nom"
+            android:id="@+id/Prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/prenom"
+            android:textSize="@dimen/police"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:padding="@dimen/margeinterieur" />
+
+
+        <EditText
+            android:layout_below="@id/Prenom"
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/mail"
+            android:textSize="@dimen/police"
+            android:importantForAutofill="no"
+            android:padding="@dimen/margeinterieur" />
+
+        <EditText
+            android:layout_below="@id/Email"
+            android:id="@+id/Tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/telephone"
+            android:textSize="@dimen/police"
+            android:importantForAutofill="no"
+            android:inputType="phone|number"
+            android:digits="0123456789+"
+            android:padding="@dimen/margeinterieur" />
+
+        <Button
+            android:layout_below="@id/Tel"
+            android:id="@+id/sauvegarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/sauvegarde"
+            android:ems="10"
+            android:textSize="@dimen/police"
+            android:padding="@dimen/margeinterieur"
+            android:layout_marginTop="@dimen/margehaute"/>
+
+
+        <TextView
+            android:layout_below="@id/sauvegarde"
+            android:id="@+id/TitreSauvegarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:hint="@string/titreSauvegarde"
+            android:text="@string/titreSauvegarde"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="@dimen/police"
+            android:padding="@dimen/margeinterieur" />
+
+        <TextView
+            android:layout_below="@id/TitreSauvegarde"
+            android:id="@+id/DateSauvegarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/police"
+            android:text="@string/defaut"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:hint="@string/titreSauvegarde"
+            android:padding="@dimen/margeinterieur"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_below="@id/DateSauvegarde"
+            android:id="@+id/NomSauvegarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/nomSauvegarde"
+            android:textSize="@dimen/police"
+            android:importantForAutofill="no"
+            android:text="@string/defaut"
+            android:padding="@dimen/margeinterieur"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_below="@id/NomSauvegarde"
+            android:id="@+id/PrenomSauvegarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/defaut"
+            android:hint="@string/prenomSauvegarde"
+            android:textSize="@dimen/police"
+            android:importantForAutofill="no"
+            android:padding="@dimen/margeinterieur"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:layout_below="@id/PrenomSauvegarde"
+            android:id="@+id/EmailSauvegarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/mailSauvegarde"
+            android:text="@string/defaut"
+            android:textSize="@dimen/police"
+            android:importantForAutofill="no"
+            android:padding="@dimen/margeinterieur"
+            android:textAlignment="center"  />
+
+        <TextView
+            android:layout_below="@id/EmailSauvegarde"
+            android:id="@+id/TelSauvegarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/telephoneSauvegarde"
+            android:text="@string/defaut"
+            android:textSize="@dimen/police"
+            android:importantForAutofill="no"
+            android:padding="@dimen/margeinterieur"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_below="@id/EmailSauvegarde"
+            android:id="@+id/NombreSauvegarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:hint="@string/nombreSauvegarde"
+            android:text="@string/nombreSauvegarde"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="@dimen/police"
+            android:padding="@dimen/margeinterieur"
+            android:textAlignment="center"  />
+
+        <TextView
+            android:layout_below="@id/NombreSauvegarde"
+            android:id="@+id/NBSauvegarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/nbSauvegarde"
+            android:text="@string/nbSauvegarde"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="@dimen/police"
+            android:padding="@dimen/margeinterieur"
+            android:textAlignment="center"  />
+
+    </RelativeLayout>
+</ScrollView>

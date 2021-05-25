@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LaPersistanceDesDonnees</string>
+
+    <string name="date">Date</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="mail">Mail</string>
+    <string name="telephone">Telephone</string>
+    <string name="sauvegarde">Sauvegarder</string>
+
+    <string name="dateSauvegarde">Aucune sauvegarde pour la date</string>
+    <string name="nomSauvegarde">Aucune sauvegarde pour le nom</string>
+    <string name="prenomSauvegarde">Aucune sauvegarde pour le prenom</string>
+    <string name="mailSauvegarde">Aucune sauvegarde pour le mail</string>
+    <string name="telephoneSauvegarde">Aucune sauvegarde pour le telephone</string>
+    <string name="titreSauvegarde">Données de la dernière sauvegarde</string>
+    <string name="nombreSauvegarde">Nombre de sauvegardes effectuées : </string>
+    <string name="nbSauvegarde">0</string>
+
+    <string name="defaut">Ceci est du texte</string>
+    <string name="image">Ceci est une image</string>
+
+</resources>
