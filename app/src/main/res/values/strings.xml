@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LaPersistanceDesDonnees3StockageExterne</string>
+    <string name="image">Ceci est une image</string>
+    <string name="texte">Veuillez rentrer du texte</string>
+    <string name="sauvegarde_du_texte">Sauvegarde du texte</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="afficher">Afficher</string>
+    <string name="utiliser_les_fichiers_partag_s">Utiliser les fichiers partagés</string>
+</resources>
