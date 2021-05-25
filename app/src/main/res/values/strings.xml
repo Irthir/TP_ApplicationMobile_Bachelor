@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LazyLoading</string>
+    <string name="image">Ceci est une image</string>
+
+    <string name="BoutonAfficher">Afficher</string>
+    <string name="bouton2">Bouton Magique</string>
+</resources>
