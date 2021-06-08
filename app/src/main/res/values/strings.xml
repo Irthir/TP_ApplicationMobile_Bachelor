@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LaPersistanceDesDonnees4BDDMySQL</string>
+    <string name="image">Image</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="mail">Mail</string>
+    <string name="valider">Valider</string>
+    <string name="connexion">Connexion</string>
+    <string name="connect">Se Connecter</string>
+    <string name="accueil">Accueil</string>
+    <string name="parametres">Parametres</string>
+    <string name="deconnexion">Deconnexion</string>
+    <string name="date_de_naissance">Date de naissance</string>
+    <string name="email">Email</string>
+    <string name="localite">Localite</string>
+    <string name="nom_utilisateur">Nom Utilisateur</string>
+    <string name="usernamesearch">Nom Utilisateur : </string>
+    <string name="Recherche_email">Email :</string>
+    <string name="Recherche_localite">Localite :</string>
+    <string name="Recherche_date_de_naissance">Date de Naissance :</string>
+    <string name="recherche">Recherche</string>
+    <string name="Recherche_username">Username :</string>
+    <string name="mise_jour">Mise à jour</string>
+    <string name="supprimer_l_utilisateur">Supprimer l\'Utilisateur</string>
+</resources>

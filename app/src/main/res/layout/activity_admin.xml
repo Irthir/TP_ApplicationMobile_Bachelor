@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin">
+
+    <TextView
+        android:layout_marginTop="@dimen/maMarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Recherche_username"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/currentUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nom_utilisateur"
+        android:textAlignment="center"
+        android:background="@color/monGris"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/updateUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/maMarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Recherche_email"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/currentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textAlignment="center"
+        android:background="@color/monGris"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/updateEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/maMarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Recherche_localite"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/currentLocalite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/localite"
+        android:textAlignment="center"
+        android:background="@color/monGris"
+        android:textColor="@color/white"
+        />
+    <EditText
+        android:id="@+id/updateLocalite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/maMarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Recherche_date_de_naissance"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/currentDDN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_de_naissance"
+        android:textAlignment="center"
+        android:background="@color/monGris"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:layout_marginTop="@dimen/maMarge"
+        android:id="@+id/updateDDN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_marginTop="@dimen/maMarge"
+        android:id="@+id/MiseAJour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mise_jour" />
+
+    <Button
+        android:layout_marginTop="@dimen/maMarge"
+        android:id="@+id/suppression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/supprimer_l_utilisateur" />
+
+</LinearLayout>
